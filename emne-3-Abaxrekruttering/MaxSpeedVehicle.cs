@@ -23,10 +23,5 @@ namespace emne_3_Abaxrekruttering
             base.info();
             Console.WriteLine($"Top speed: {MaxSpeed}{SpeedUnit}");
         }
-
-        public override void run()
-        {
-
-        }
     }
 }

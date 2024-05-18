@@ -26,6 +26,9 @@ namespace emne_3_Abaxrekruttering
             Console.WriteLine($"kraft: {Kraft}KW");
         }
 
-        public abstract void run();
+        public virtual void run()
+        {
+
+        }
     }
 }
